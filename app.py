@@ -19,9 +19,4 @@ beta = 0
 def landa(m, n):
     return ( ( (m/a)**4 + 2*( ((m/a)**2)*((n/b)**2) ) + (n/b)**4 )/((m/(a*b))**2) )
 
-landa_sca = 0
-for i in range(1, m+1):
-    for j in range(1, n+1):
-        landa_sca += landa(i, j)
-print(landa_sca)
 print(landa(m, n))
