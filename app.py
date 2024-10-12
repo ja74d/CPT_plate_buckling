@@ -1,6 +1,5 @@
 import math
 import sympy as sp
-from Navier import W
 
 x, y = sp.symbols('x y')
 
